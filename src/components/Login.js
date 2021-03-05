@@ -2,8 +2,8 @@ import React from 'react';
 import twitch from '../assets/twitch.png';
 import logo from '../assets/logo.png';
 import apple from '../assets/apple.svg';
-import  facebook from '../assets/facebook.svg';
-import  google from '../assets/google.svg';
+import facebook from '../assets/facebook.svg';
+import google from '../assets/google.svg';
 import right from '../assets/right-arrow.svg';
 import '../style/login.css';
 
@@ -17,7 +17,7 @@ export default function Login() {
                 <div className="login">
 
                     <img src={logo} alt="logo" />
-                    <h1>Fazer Login</h1>
+                    <h2>Fazer Login</h2>
 
                     <div className="username">
                         <input type="text" placeholder="NOME DE USUÁRIO"></input>
@@ -25,14 +25,16 @@ export default function Login() {
                     </div>
 
                     <div className="social_media">
-                        <div className="btn_face"><img src={facebook}/></div>
-                        <div className="btn_google"><img src={google}/></div>
-                        <div className="btn_apple"><img src={apple}/></div>
+                        <div className="btn_face"><img src={facebook} /></div>
+                        <div className="btn_google"><img src={google} /></div>
+                        <div className="btn_apple"><img src={apple} /></div>
                     </div>
 
                     <div className="checklogin">
-                        <input type="checkbox"></input>
-                        <h2>Manter Login</h2>
+                        <label>
+                            <input type="checkbox"></input>
+                            <span>Manter Login</span>
+                        </label>
                     </div>
                 </div>
             </div>
