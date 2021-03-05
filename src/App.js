@@ -28,9 +28,9 @@ export default function App(){
                         </div>
 
                         <div className="social_media">
-                            <div className="btn_face"><img src={facebook} /></div>
-                            <div className="btn_google"><img src={google} /></div>
-                            <div className="btn_apple"><img src={apple} /></div>
+                            <div className="btn_face"><img src={facebook} alt=""/></div>
+                            <div className="btn_google"><img src={google} alt=""/></div>
+                            <div className="btn_apple"><img src={apple} alt=""/></div>
                         </div>
 
                         <div className="checklogin">
@@ -41,7 +41,7 @@ export default function App(){
                         </div>
 
                         <div className="send_btn">
-                            <img src={right} />
+                            <img src={right} alt=""/>
                         </div><br />
 
                         <a href="https://recovery.riotgames.com/pt-br?region=BR1">NÃO CONSEGUE INICIAR SESSÃO?</a><br/>
