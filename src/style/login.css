@@ -1,0 +1,42 @@
+
+.login_container {
+    width: 675px;
+    height: 1080px; 
+    max-width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+.login_container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.splash {
+    position: absolute;
+    width: 100%;
+}
+
+.splash img{
+    width: 100%;
+    height: 100%;
+}
+
+.login{
+    width: 675px;
+    height: 1080px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9em;
+}
+
+.login img {
+    width: 10%;
+}
+
+.checklogin h2{
+    font-family: 'Poppins';
+}
+
