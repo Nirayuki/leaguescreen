@@ -178,6 +178,7 @@ a{
     }
     .login{
         width: 400px;
+        margin-top: -2px;
     }
     .send_btn{
         width: 30%;
