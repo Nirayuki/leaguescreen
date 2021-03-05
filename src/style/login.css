@@ -170,3 +170,16 @@ a{
     }
    
 }
+
+@media screen and (max-width: 410px){
+    *{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .login{
+        width: 400px;
+    }
+    .send_btn{
+        width: 30%;
+    }
+}
