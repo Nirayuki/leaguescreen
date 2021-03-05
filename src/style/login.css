@@ -166,5 +166,7 @@ a{
 @media screen and (max-width: 595px){
     .login{
         width: 533px;
+        margin-left: -15px;
     }
+   
 }
