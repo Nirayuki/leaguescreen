@@ -1,7 +1,7 @@
 
 .login_container {
     width: 675px;
-    height: 1080px; 
+    height: 100vh; 
     max-width: 100%;
     position: relative;
     background-color: #fff;
@@ -178,7 +178,7 @@ a{
     }
     .login{
         width: 400px;
-        min-height: 100vh;
+        margin-top: -70px;
     }
     .send_btn{
         width: 30%;
