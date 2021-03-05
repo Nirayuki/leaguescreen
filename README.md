@@ -1,4 +1,4 @@
-# [Clique aqui para acessar o LeagueScreen!](https://leaguetela-c5uutrlrp-aronkerk8.vercel.app/)
+# [Clique aqui para acessar o LeagueScreen!](https://leaguetela.vercel.app/)
 
 
 ## Sobre o Projeto
