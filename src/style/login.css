@@ -178,6 +178,7 @@ a{
     }
     .login{
         width: 400px;
+        min-height: 100vh;
     }
     .send_btn{
         width: 30%;
