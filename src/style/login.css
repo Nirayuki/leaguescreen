@@ -7,6 +7,10 @@
     background-color: #fff;
 }
 
+center{
+    height: 1080px;
+}
+
 .login_container h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -36,10 +40,30 @@
     width: 10%;
 }
 
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.username input{
+    padding: 15px 10px;
+    border: none;
+    background: #EDEDED;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #A1A1A1;
+}
+
+.username input:last-child{
+    margin-top: 20px;
+}
+
 .social_media{
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite;
     margin-top: 15px;
     width: 72%;
     height: 40px;
@@ -70,14 +94,12 @@
     width: 70%;
     height: 70%;
     margin-top: 5px;
-    margin-left: 17px;
 }
 
 .btn_face img{
     width: 70%;
     height: 70%;
     margin-top: 5px;
-    margin-left: 17px;
 }
 
 
@@ -85,43 +107,64 @@
     width: 70%;
     height: 70%;
     margin-top: 5px;
-    margin-left: 17px;
 }
 
-.username{
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    width: 70%;
-}
-
-.username input{
-    padding: 15px 10px;
-    border: none;
-    background: #EDEDED;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Poppins';
-    color: #A1A1A1;
-}
-
-.username input:last-child{
-    margin-top: 20px;
-}
-
-.checklogin span{
-    font-family: 'Poppins';
-    background-color: #fff;
-}
 
 .checklogin{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 72%;
+    margin-top: 10px;
 }
 
-.checklogin input{
+
+.checklogin span{
+    font-family: 'Poppins';
+    background-color: #fff;
+    margin-left: 4px;
+    color: #A1A1A1;
 }
 
 
+.send_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    width: 17%;
+    height: 10%;
+    margin-top: 30px;
+
+    border-radius: 20%;
+    border: 2px solid #E8E8E8;
+
+    
+
+    cursor: pointer;
+}
+
+.send_btn:hover{
+    background: #D13639;
+    transition: 0.5s;
+}
+
+
+.send_btn img{
+    width: 30%;
+    height: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: #A1A1A1;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 595px){
+    .login{
+        width: 533px;
+    }
+}
